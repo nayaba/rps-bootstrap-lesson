@@ -26,7 +26,7 @@
            - ✂️ Scissors beats 📄 Paper<br>
            - 📄 Paper beats 🪨 Rock<br>
            - The same move is a tie!</p>
-    ```
+        ```
 ### Contact Us Page with Form
 
 - Create a new html file in anticipation of adding a navbar.  It will be a contact form wrapped in our container div:
@@ -41,7 +41,7 @@
                     <button>Submit</button>
                 </form>
         </div>
-    ```
+        ```
 - Navigate to `contact.html` to view the new form.  Notice that our bootstrap css is not applied here (nor is our custom css) - add the CDN link.
 - Emphasize the need for both a better looking form and navigation.  Start with the form.
 - Grab the example form from the [Form Control](https://getbootstrap.com/docs/5.3/forms/form-control/) section.  This snippet is only the name and text fields, so be sure not to delete your button or form tags.
@@ -85,7 +85,7 @@
                 <p>Favorite Move: 🪨 Rock</p>
                 <p class="card-text"><small class="text-body-secondary">Current Streak: 3 Wins</small></p>
         </div>
-    ```
+        ```
 - Change the card `max-width` to `min-width` to look a bit nicer - `<div class="card mb-3" style="min-width: 540px;">`
 - Grab a [person icon from bootstrap icons](https://icons.getbootstrap.com/icons/person/) - this time use an SVG and change the width and height to auto
 - Copy and paste a few cards to show how this looks.  We'll need to update our css to make it look good.  Give the `container-div` on `stats.html` a new class of `container-stats`.  Create this new css rule:
@@ -97,7 +97,7 @@
             justify-content: center;
             gap: 10px;
         }
-    ```
+        ```
 - Take this opportunity to talk about how nice it would be if you could re-use the same card, but populate it with different information (we'll tackle this in the level up)
 
 
@@ -168,7 +168,7 @@ const players = [
             `
             })
         }
-    ```
+        ```
     - Update the HTML snippet to grab the info directly from each `player` object
 - Final code
     - ```js
@@ -199,4 +199,4 @@ const players = [
         }
 
         renderStatsCards()
-    ```
+        ```
