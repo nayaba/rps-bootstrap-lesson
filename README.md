@@ -12,7 +12,7 @@
 - Talk about the different [colors (danger, warning, etc.)](https://getbootstrap.com/docs/5.3/components/buttons/#variants)
 - Show the variety of Components bootstrap has to offer
 
-### How to Play Modal
+### "How to Play" Modal
 
 - Use the Modal from the docs to create a "How to Play" pop-up modal
 - Edit the modal - remove the save button; give it a new title; add the following code snippet for instructions:
