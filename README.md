@@ -169,7 +169,7 @@ const players = [
             })
         }
         ```
-    - Update the HTML snippet to grab the info directly from each `player` object
+    - Update the HTML snippet to grab the info dynamically from each `player` object
 - Final code
     - ```js
         const renderStatsCards = () => {
