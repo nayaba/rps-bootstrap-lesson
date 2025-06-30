@@ -45,8 +45,9 @@
         ```
 - Navigate to `contact.html` to view the new form.  Notice that our bootstrap css is not applied here (nor is our custom css) - add the CDN link.
 - Emphasize the need for both a better looking form and navigation.  Start with the form.
-- Grab the example form from the [Form Control](https://getbootstrap.com/docs/5.3/forms/form-control/) section.  This snippet is only the name and text fields, so be sure not to delete your button or form tags.
-- Style the submit button - visit the [Block buttons](https://getbootstrap.com/docs/5.3/components/buttons/#block-buttons) section of the docs to stretch the submit button out nicely.
+- Grab the example form from the [Form Control](https://getbootstrap.com/docs/5.3/forms/form-control/) section.  This snippet is only the name and text fields, so **be sure not to delete your button or form tags.**
+- `<form action="mailto:your@email.com" method="POST">`
+- ~~Style the submit button - visit the [Block buttons](https://getbootstrap.com/docs/5.3/components/buttons/#block-buttons) section of the docs to stretch the submit button out nicely.~~
 
 ### Adding a Navbar
 
