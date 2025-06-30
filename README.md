@@ -4,6 +4,7 @@
 - Add CDN link for both css and js
 - Show how bootstrap immediately adds styling
 - Show difference between putting bootsrap BELOW our CSS link versus ABOVE
+    - Might want to add `font-family: cursive;` to the body to highlight the difference
 - Add a `How to Play` button outside of the main tags (note which style sheet is being applied)
 - Update our CSS `button` rule to be `main > button` so that our new button uses bootstrap styling
     - Wrap all of our content in a `<div>` with a class of `container`
