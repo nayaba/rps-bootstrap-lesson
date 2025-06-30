@@ -7,8 +7,8 @@
     - Might want to add `font-family: cursive;` to the body to highlight the difference
 - Add a `How to Play` button outside of the main tags (note which style sheet is being applied)
 - ~~Update our CSS `button` rule to be `main > button` so that our new button uses bootstrap styling~~
-    - ~~Wrap all of our content in a `<div>` with a class of `container`~~
-    - ~~Update our `html, body` rule to `.container`~~
+    - Wrap all of our content in a `<div>` with a class of `container`
+    - Update our `html, body` rule to `.container`
 - Show how bootstrap classes work by adding `btn btn-primary` classes to new button
 - Talk about the different [colors (danger, warning, etc.)](https://getbootstrap.com/docs/5.3/components/buttons/#variants)
 - Show the variety of Components bootstrap has to offer
